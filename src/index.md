@@ -1,6 +1,6 @@
 # HTTP Emoji Codes :globe_with_meridians:
 
-HTTP Emoji Codes are *HTTP Status Codes for Humans:tm:*. Start sending Emoji Codes and
+HTTP Emoji Codes are *HTTP Status Codes for Humans™*. Start sending Emoji Codes and
 make the web a more human place, one response at a time!
 
 This lexicon was inspired by a twitter thread started by user `@francesc`, linked below,
@@ -27,9 +27,9 @@ The URI format is `/api/{code}.json`.
     }
     ```
 
-You may fetch all of the Emoji Codes @ `/api/all.json`.
+You may fetch all of the Emoji Codes @ `/api/codes.json`.
 
-[Try it today!](/api/all.json){target=_blank}
+[Try it today!](/api/codes.json){target=_blank}
 
 ## Path to Success :white_check_mark:
 

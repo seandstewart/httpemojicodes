@@ -52,7 +52,7 @@ class EmojiCodesPlugin(BasePlugin):
                     json.dump(emojicode, file, indent=2)
                 files.append(json_file)
         all_json_file = File(
-            f"{json_dir}/all.json",
+            f"{json_dir}/codes.json",
             config["docs_dir"],
             config["site_dir"],
             config["use_directory_urls"]
