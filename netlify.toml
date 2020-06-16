@@ -4,7 +4,8 @@ command = """
 pip3 install -q poetry &&
 poetry config settings.virtualenvs.in-project true &&
 poetry install &&
-poetry run mkdocs build
+poetry run mkdocs build &&
+cp src/_redirects site/_redirects
 """
 
 [[headers]]
