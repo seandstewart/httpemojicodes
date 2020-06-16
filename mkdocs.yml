@@ -16,8 +16,6 @@ theme:
     code: "IBM Plex Mono"
   icon:
     logo: fontawesome/solid/gem
-  features:
-  - instant
 extra_css:
 - stylesheets/extra.css
 plugins:
