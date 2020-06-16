@@ -9,9 +9,11 @@ cp src/_redirects site/_redirects
 """
 
 [[headers]]
-for = "/*"
-[headers.values]
-  X-Status-Emoji = ":thumsup:"
-for = "/404.html"
-[headers.values]
-  X-Status-Emoji = ":woman_shrugging:"
+  for = "/*"
+  [headers.values]
+    X-Status-Emoji = ":thumsup:"
+
+[[headers]]
+  for = "/404.html"
+  [headers.values]
+    X-Status-Emoji = ":woman_shrugging:"
