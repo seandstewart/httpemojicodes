@@ -1,0 +1,61 @@
+site_name: "HTTP Emoji Codes"
+site_author: Sean D Stewart
+copyright: "Copyright &copy; 2020 Sean Stewart"
+site_url: https://httpemojicodes.org
+repo_url: https://github.com/seandstewart/httpemojicodes
+repo_name: seandstewart/httpemojicodes
+docs_dir: src
+theme:
+  name: "material"
+  palette:
+    scheme: slate
+    primary: "indigo"
+    accent: "teal"
+  font:
+    text: "IBM Plex Serif"
+    code: "IBM Plex Mono"
+  icon:
+    logo: fontawesome/solid/gem
+  features:
+  - instant
+  custom_dir: overrides
+extra_css:
+- stylesheets/extra.css
+plugins:
+- search
+- awesome-pages
+- emojicodes
+markdown_extensions:
+- toc:
+    permalink: "#"
+- smarty
+- admonition
+- footnotes
+- codehilite
+- pymdownx.arithmatex
+- pymdownx.inlinehilite
+- pymdownx.superfences
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- attr_list
+extra:
+  social:
+  - icon: "fontawesome/brands/github-alt"
+    link: "https://github.com/seandstewart/src"
+  - icon: "fontawesome/brands/twitter"
+    link: "https://twitter.com/MrSeanStewart"
+  - icon: "fontawesome/brands/linkedin"
+    link: "https://linkedin.com/in/seandstewart"
+#  manifest: "img/img/site.webmanifest"

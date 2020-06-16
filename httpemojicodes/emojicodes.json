@@ -1,0 +1,422 @@
+{
+  "100": {
+    "code": 100,
+    "name": "Continue",
+    "description": "Request received, please continue",
+    "emoji": ":ear:",
+    "category": "information"
+  },
+  "101": {
+    "code": 101,
+    "name": "Switching Protocols",
+    "description": "Switching to new protocol; obey Upgrade header",
+    "emoji": ":twisted_rightwards_arrows:",
+    "category": "information"
+  },
+  "102": {
+    "code": 102,
+    "name": "Processing",
+    "description": "",
+    "emoji": ":desktop_computer:",
+    "category": "information"
+  },
+  "200": {
+    "code": 200,
+    "name": "OK",
+    "description": "Request fulfilled, document follows",
+    "emoji": ":thumbsup:",
+    "category": "success"
+  },
+  "201": {
+    "code": 201,
+    "name": "Created",
+    "description": "Document created, URL follows",
+    "emoji": ":new:",
+    "category": "success"
+  },
+  "202": {
+    "code": 202,
+    "name": "Accepted",
+    "description": "Request accepted, processing continues off-line",
+    "emoji": ":raised_hands:",
+    "category": "success"
+  },
+  "203": {
+    "code": 203,
+    "name": "Non Authoritative Information",
+    "description": "Request fulfilled from cache",
+    "emoji": ":thinking_face:",
+    "category": "success"
+  },
+  "204": {
+    "code": 204,
+    "name": "No Content",
+    "description": "Request fulfilled, nothing follows",
+    "emoji": ":no_mouth:",
+    "category": "success"
+  },
+  "205": {
+    "code": 205,
+    "name": "Reset Content",
+    "description": "Clear input form for further input",
+    "emoji": ":rewind:",
+    "category": "success"
+  },
+  "206": {
+    "code": 206,
+    "name": "Partial Content",
+    "description": "Partial content follows",
+    "emoji": ":expressionless:",
+    "category": "success"
+  },
+  "207": {
+    "code": 207,
+    "name": "Multi Status",
+    "description": "",
+    "emoji": ":revolving_hearts:",
+    "category": "success"
+  },
+  "208": {
+    "code": 208,
+    "name": "Already Reported",
+    "description": "",
+    "emoji": ":wink:",
+    "category": "success"
+  },
+  "226": {
+    "code": 226,
+    "name": "IM Used",
+    "description": "",
+    "emoji": ":speech_balloon:",
+    "category": "success"
+  },
+  "300": {
+    "code": 300,
+    "name": "Multiple Choices",
+    "description": "Object has several resources -- see URI list",
+    "emoji": ":confused:",
+    "category": "redirect"
+  },
+  "301": {
+    "code": 301,
+    "name": "Moved Permanently",
+    "description": "Object moved permanently -- see URI list",
+    "emoji": ":point_right:",
+    "category": "redirect"
+  },
+  "302": {
+    "code": 302,
+    "name": "Found",
+    "description": "Object moved temporarily -- see URI list",
+    "emoji": ":mag:",
+    "category": "redirect"
+  },
+  "303": {
+    "code": 303,
+    "name": "See Other",
+    "description": "Object moved -- see Method and URL list",
+    "emoji": ":raising_hand:",
+    "category": "redirect"
+  },
+  "304": {
+    "code": 304,
+    "name": "Not Modified",
+    "description": "Document has not changed since given time",
+    "emoji": ":information_desk_person:",
+    "category": "redirect"
+  },
+  "305": {
+    "code": 305,
+    "name": "Use Proxy",
+    "description": "You must use proxy specified in Location to access this resource",
+    "emoji": ":raised_hand:",
+    "category": "redirect"
+  },
+  "307": {
+    "code": 307,
+    "name": "Temporary Redirect",
+    "description": "Object moved temporarily -- see URI list",
+    "emoji": ":link:",
+    "category": "redirect"
+  },
+  "308": {
+    "code": 308,
+    "name": "Permanent Redirect",
+    "description": "Object moved permanently -- see URI list",
+    "emoji": ":face_with_monocle:",
+    "category": "redirect"
+  },
+  "400": {
+    "code": 400,
+    "name": "Bad Request",
+    "description": "Bad request syntax or unsupported method",
+    "emoji": ":thumbsdown:",
+    "category": "client error"
+  },
+  "401": {
+    "code": 401,
+    "name": "Unauthorized",
+    "description": "No permission -- see authorization schemes",
+    "emoji": ":closed_lock_with_key:",
+    "category": "client error"
+  },
+  "402": {
+    "code": 402,
+    "name": "Payment Required",
+    "description": "No payment -- see charging schemes",
+    "emoji": ":moneybag:",
+    "category": "client error"
+  },
+  "403": {
+    "code": 403,
+    "name": "Forbidden",
+    "description": "Request forbidden -- authorization will not help",
+    "emoji": ":no_entry:",
+    "category": "client error"
+  },
+  "404": {
+    "code": 404,
+    "name": "Not Found",
+    "description": "Nothing matches the given URI",
+    "emoji": ":woman_shrugging:",
+    "category": "client error"
+  },
+  "405": {
+    "code": 405,
+    "name": "Method Not Allowed",
+    "description": "Specified method is invalid for this resource",
+    "emoji": ":crossed_swords:",
+    "category": "client error"
+  },
+  "406": {
+    "code": 406,
+    "name": "Not Acceptable",
+    "description": "URI not available in preferred format",
+    "emoji": ":speak_no_evil:",
+    "category": "client error"
+  },
+  "407": {
+    "code": 407,
+    "name": "Proxy Authentication Required",
+    "description": "You must authenticate with this proxy before proceeding",
+    "emoji": ":lock_with_ink_pen:",
+    "category": "client error"
+  },
+  "408": {
+    "code": 408,
+    "name": "Request Timeout",
+    "description": "Request timed out; try again later",
+    "emoji": ":hourglass_flowing_sand:",
+    "category": "client error"
+  },
+  "409": {
+    "code": 409,
+    "name": "Conflict",
+    "description": "Request conflict",
+    "emoji": ":people_wrestling:",
+    "category": "client error"
+  },
+  "410": {
+    "code": 410,
+    "name": "Gone",
+    "description": "URI no longer exists and has been permanently removed",
+    "emoji": ":dash:",
+    "category": "client error"
+  },
+  "411": {
+    "code": 411,
+    "name": "Length Required",
+    "description": "Client must specify Content-Length",
+    "emoji": ":palms_up_together:",
+    "category": "client error"
+  },
+  "412": {
+    "code": 412,
+    "name": "Precondition Failed",
+    "description": "Precondition in headers is false",
+    "emoji": ":warning:",
+    "category": "client error"
+  },
+  "413": {
+    "code": 413,
+    "name": "Request Entity Too Large",
+    "description": "Entity is too large",
+    "emoji": ":ship:",
+    "category": "client error"
+  },
+  "414": {
+    "code": 414,
+    "name": "Request Uri Too Long",
+    "description": "URI is too long",
+    "emoji": ":weary:",
+    "category": "client error"
+  },
+  "415": {
+    "code": 415,
+    "name": "Unsupported Media Type",
+    "description": "Entity body in unsupported format",
+    "emoji": ":grimacing:",
+    "category": "client error"
+  },
+  "416": {
+    "code": 416,
+    "name": "Requested Range Not Satisfiable",
+    "description": "Cannot satisfy request range",
+    "emoji": ":underage:",
+    "category": "client error"
+  },
+  "417": {
+    "code": 417,
+    "name": "Expectation Failed",
+    "description": "Expect condition could not be satisfied",
+    "emoji": ":astonished:",
+    "category": "client error"
+  },
+  "418": {
+    "code": 418,
+    "name": "Teapot",
+    "description": "I'm a teapot.",
+    "emoji": ":teapot:",
+    "category": "client error"
+  },
+  "421": {
+    "code": 421,
+    "name": "Misdirected Request",
+    "description": "Server is not able to produce a response",
+    "emoji": ":point_left:",
+    "category": "client error"
+  },
+  "422": {
+    "code": 422,
+    "name": "Unprocessable Entity",
+    "description": "The request was well-formed but was unable to be followed due to semantic error.",
+    "emoji": ":exploding_head:",
+    "category": "client error"
+  },
+  "423": {
+    "code": 423,
+    "name": "Locked",
+    "description": "The resource that is being accessed is locked.",
+    "emoji": ":lock:",
+    "category": "client error"
+  },
+  "424": {
+    "code": 424,
+    "name": "Failed Dependency",
+    "description": "The request failed due to failure of a previous request",
+    "emoji": ":man_facepalming:",
+    "category": "client error"
+  },
+  "426": {
+    "code": 426,
+    "name": "Upgrade Required",
+    "description": "The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol",
+    "emoji": ":up:",
+    "category": "client error"
+  },
+  "428": {
+    "code": 428,
+    "name": "Precondition Required",
+    "description": "The origin server requires the request to be conditional",
+    "emoji": ":pinched_fingers:",
+    "category": "client error"
+  },
+  "429": {
+    "code": 429,
+    "name": "Too Many Requests",
+    "description": "The user has sent too many requests in a given amount of time (\"rate limiting\")",
+    "emoji": ":dizzy_face:",
+    "category": "client error"
+  },
+  "431": {
+    "code": 431,
+    "name": "Request Header Fields Too Large",
+    "description": "The server is unwilling to process the request because its header fields are too large",
+    "emoji": ":volcano:",
+    "category": "client error"
+  },
+  "451": {
+    "code": 451,
+    "name": "Unavailable for Legal Reasons",
+    "description": "The user-agent requested a resource that cannot legally be provided, such as a web page censored by a government",
+    "emoji": ":woman_detective:",
+    "category": "client error"
+  },
+  "500": {
+    "code": 500,
+    "name": "Internal Server Error",
+    "description": "Server got itself in trouble",
+    "emoji": ":boom:",
+    "category": "server error"
+  },
+  "501": {
+    "code": 501,
+    "name": "Not Implemented",
+    "description": "Server does not support this operation",
+    "emoji": ":construction:",
+    "category": "server error"
+  },
+  "502": {
+    "code": 502,
+    "name": "Bad Gateway",
+    "description": "Invalid responses from another server/proxy",
+    "emoji": ":no_entry_sign:",
+    "category": "server error"
+  },
+  "503": {
+    "code": 503,
+    "name": "Service Unavailable",
+    "description": "The server cannot process the request due to a high load",
+    "emoji": ":cold_sweat:",
+    "category": "server error"
+  },
+  "504": {
+    "code": 504,
+    "name": "Gateway Timeout",
+    "description": "The gateway server did not receive a timely response",
+    "emoji": ":timer_clock:",
+    "category": "server error"
+  },
+  "505": {
+    "code": 505,
+    "name": "Http Version Not Supported",
+    "description": "Cannot fulfill request",
+    "emoji": ":dizzy:",
+    "category": "server error"
+  },
+  "506": {
+    "code": 506,
+    "name": "Variant Also Negotiates",
+    "description": "The server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process",
+    "emoji": ":shaking_hands:",
+    "category": "server error"
+  },
+  "507": {
+    "code": 507,
+    "name": "Insufficient Storage",
+    "description": "The method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request",
+    "emoji": ":chart_with_downwards_trend:",
+    "category": "server error"
+  },
+  "508": {
+    "code": 508,
+    "name": "Loop Detected",
+    "description": "The server detected an infinite loop while processing the request",
+    "emoji": ":repeat:",
+    "category": "server error"
+  },
+  "510": {
+    "code": 510,
+    "name": "Not Extended",
+    "description": "Further extensions to the request are required for the server to fulfil it",
+    "emoji": ":stop_sign:",
+    "category": "server error"
+  },
+  "511": {
+    "code": 511,
+    "name": "Network Authentication Required",
+    "description": "The client needs to authenticate to gain network access",
+    "emoji": ":rotating_light:",
+    "category": "server error"
+  }
+}
