@@ -4,7 +4,8 @@ command = """
 pip3 install -q poetry &&
 poetry install &&
 poetry run mkdocs build &&
-cp src/_redirects site/_redirects
+cp src/_redirects site/_redirects &&
+cp httpemojicodes/emojicodes.json site/api/codes.json
 """
 
 [[headers]]
