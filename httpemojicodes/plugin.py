@@ -32,6 +32,17 @@ class EmojiCodesPlugin(BasePlugin):
     def on_files(self, files: Files, config: Config):
         json_dir = "api"
         (pathlib.Path(config['docs_dir']).resolve() / json_dir).mkdir(parents=True, exist_ok=True)
+        (pathlib.Path(config['site_dir']).resolve() / json_dir).mkdir(parents=True, exist_ok=True)
+        all_json_file = File(
+            f"{json_dir}/codes.json",
+            config["docs_dir"],
+            config["site_dir"],
+            config["use_directory_urls"]
+        )
+        with open(all_json_file.abs_src_path, "w") as file:
+            json.dump(self.codes, file, indent=2)
+        with open(all_json_file.abs_dest_path, "w") as file:
+            json.dump(self.codes, file, indent=2)
         for category, codes in self.codes_by_category.items():
             dir = parameterize(f"{category}-responses")
             for name, emojicode in codes.items():
@@ -51,14 +62,6 @@ class EmojiCodesPlugin(BasePlugin):
                 with open(json_file.abs_src_path, "w") as file:
                     json.dump(emojicode, file, indent=2)
                 files.append(json_file)
-        all_json_file = File(
-            f"{json_dir}/codes.json",
-            config["docs_dir"],
-            config["site_dir"],
-            config["use_directory_urls"]
-        )
-        with open(all_json_file.abs_src_path, "w") as file:
-            json.dump(self.codes, file, indent=2)
 
     def on_page_read_source(self, page: Page, config: Config):
         file: File = page.file
