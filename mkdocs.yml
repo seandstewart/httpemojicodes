@@ -18,7 +18,6 @@ theme:
     logo: fontawesome/solid/gem
   features:
   - instant
-  custom_dir: overrides
 extra_css:
 - stylesheets/extra.css
 plugins:

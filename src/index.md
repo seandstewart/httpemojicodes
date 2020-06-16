@@ -11,25 +11,7 @@ and is entirely in the public domain. Contributions are always welcome!
 This site has a simple JSON API for fetching Emoji Codes by their legacy integer Status
 Codes.
 
-The URI format is `/api/{code}.json`.
-
-??? example "Fetch a 200 Emoji Code"
-
-    For example, fetching `/api/200.json` returns:
-    
-    ```javascript
-    {
-      "code": 200,
-      "name": "OK",
-      "description": "Request fulfilled, document follows",
-      "emoji": ":thumbsup:",
-      "category": "success"
-    }
-    ```
-
-You may fetch all of the Emoji Codes @ `/api/codes.json`.
-
-[Try it today!](/api/codes.json){target=_blank}
+See how to interact in the [API Docs](api/index.md)
 
 ## Path to Success :white_check_mark:
 

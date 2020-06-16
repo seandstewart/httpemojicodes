@@ -100,9 +100,9 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site/*
-!/site/_redirects
+/site
 /src/api/*
+/src/api/index.md
 
 # mypy
 .mypy_cache/
