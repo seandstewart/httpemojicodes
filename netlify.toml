@@ -1,8 +1,10 @@
 [build]
 publish = "site/"
 command = """
-mkdocs build &&
-cp mkdocs/_redirects site/_redirects
+pip3 install -q poetry &&
+poetry config settings.virtualenvs.in-project true &&
+poetry install &&
+poetry run mkdocs build
 """
 
 [[headers]]
